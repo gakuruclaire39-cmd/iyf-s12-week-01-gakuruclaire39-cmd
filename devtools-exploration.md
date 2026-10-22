@@ -5,7 +5,7 @@
 - Tags I saw: html, head, title, meta, style, body, div, p, a
 - Headings: 0 headings now. In the screenshot I took it only has paragraphs. It says "This domain is for use in documentation examples..."
 - Link: At bottom there is "Learn more" that goes to iana.org
-- How I checked: I opened example.com on Chrome tablet and used view-source: in address bar
+- How I checked: I opened example.com on Chrome.
 
 ## Website 2: https://developer.mozilla.org
 - Navigation menu: It is wrapped in <nav> tag. I saw <nav class="main-nav"> at the top inside <header>. Inside nav there is ul and li for links.
@@ -20,4 +20,5 @@
     4. <footer> - bottom footer
     5. <a> - links inside article
 - Form: I found search form at top: <form id="searchform">. Inputs are: input type="search" name="search", hidden input, and button type="submit" Search.
+- Screenshot of the Elements panel I have attached it in images named: images/wikipedia-elements.png
   
