@@ -10,24 +10,51 @@
     legend { font-weight: bold; padding: 0 0.5rem; }
     label { display: block; margin-top: 1rem; font-weight: 500; }
     input, select, textarea { width: 100%; padding: 0.6rem; margin-top: 0.3rem; border-radius: 6px;  border: 1px solid #999; }
-    
-    
+    button { padding: 0.8rem 1.5rem; background: #111; color: white; border: none; border-radius: 6px; cursor: pointer; margin-top: 1rem; }
+    button:hover { background: #333; } 
   </style>
 </head>
 <body>
-
-  <header>
     <h1>Contact Me</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="semantic-conversion.html>Semantic Demo</a></li>
-      </ul>
-    </nav>
-  </header>
+    <form action="#" method="posts" novalidate>
 
- <main>
-     <form action="#" method="posts">
-          
-</body>  
+       <!-- Personal Info -->
+       <fieldset>
+         <legend>Personal Information</legend>
+
+         <label for="fullName">Full Name *</label>
+         <input type="text" id="fullName" name="fullName" placeholder="e.g. Ella Wanjiru" reqiured autocomplete="name">
+
+         <label for="email">Email Address *</label>
+         <input type="email" id="email" name="email" placeholder="e.g. ella@gmail.com" reqiured autocomplete="email'>
+
+         <label for="phone">Phone Number</label>
+         <input type="tel" id="phone" name="phone" placeholder="e.g. +254 712 345 678" autocomplete="tel">  
+       </fieldset>
+
+       <!-- Message -->
+       <fieldest>
+         <legend>Your Message</legend>
+
+         <label for="subject">Subject *</label>
+         <select id="subject" name="subject" required>
+           <option value=""disabled selected>Select a subject</option>
+           <option value="general">General Inquiry</option>
+           <option value="support">Customer Suppoter</option>
+           <option value="booking">Service Booking</option>
+         </select>
+
+         <label for="message">Message * (min 50 characters)</label>
+         <textarea id="message" name="message" placeholder="Tell us how we can help you..." required minlength="50" rows='6'></textarea>
+
+         <label for="newsletter" style="display: flex; gap: 0.5rem; align-items: center; margin-top: 1.2rem;">
+           <input type="checkbox" id="newsletter" name="newsletter" style="width: auto;">
+           Subscribe to our newsletter
+         </label>
+       </fieldest>
+
+      <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
+
