@@ -15,32 +15,38 @@
   </style>
 </head>
 <body>
+  <nav style="display:flex;gap:1rem;background:#f4f4f4;padding:0.8rem;border-radius:8px;flex-wrap:wrap;margin-bottom:1rem">
+    <a href="index.html" style="text-decoration:none;color:#333;padding:0.3rem 0.6rem">Home</a>
+    <a href="about.html" style="text-decoration:none;color:#333;padding:0.3rem 0.6rem">About</a>
+    <a href="projects.html" style="text-decoration:none;color:#333;padding:0.3rem 0.6rem">Projects</a>
+    <a href="contact.html" style="text-decoration:none;background:#111;color:#fff;padding:0.3rem 0.6rem;border-radius:4px">Contact</a>
+  </nav>
     <h1>Contact Me</h1>
-    <form action="#" method="posts" novalidate>
+    <form action="#" method="posts"(so validation works)>
 
        <!-- Personal Info -->
        <fieldset>
          <legend>Personal Information</legend>
 
          <label for="fullName">Full Name *</label>
-         <input type="text" id="fullName" name="fullName" placeholder="e.g. Ella Wanjiru" reqiured autocomplete="name">
+         <input type="text" id="fullName" name="fullName" placeholder="e.g. Ella Wanjiru" required autocomplete="name">
 
          <label for="email">Email Address *</label>
-         <input type="email" id="email" name="email" placeholder="e.g. ella@gmail.com" reqiured autocomplete="email'>
+         <input type="email" id="email" name="email" placeholder="e.g. ella@gmail.com" required autocomplete="email">
 
          <label for="phone">Phone Number</label>
          <input type="tel" id="phone" name="phone" placeholder="e.g. +254 712 345 678" autocomplete="tel">  
        </fieldset>
 
        <!-- Message -->
-       <fieldest>
+       <fieldset>
          <legend>Your Message</legend>
 
          <label for="subject">Subject *</label>
          <select id="subject" name="subject" required>
            <option value=""disabled selected>Select a subject</option>
            <option value="general">General Inquiry</option>
-           <option value="support">Customer Suppoter</option>
+           <option value="support">Customer Support</option>
            <option value="booking">Service Booking</option>
          </select>
 
@@ -55,6 +61,11 @@
 
       <button type="submit">Send Message</button>
     </form>
+
+  <hr>
+<h2>Find Me</h2>
+<p>Social: <a href="https://github.com/gakuruclaire39-cmd">GitHub</a> | <a href="https://developer.mozilla.org">MDN</a></p>
+<p>Location: Nairobi, Central Province, KE | Timezone: EAT (GMT+3)</p>
 </body>
 </html>
 
