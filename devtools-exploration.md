@@ -5,7 +5,7 @@
 - Tags I saw: html, head, title, meta, style, body, div, p, a
 - Headings: 0 headings now. In the screenshot I took it only has paragraphs. It says "This domain is for use in documentation examples..."
 - Link: At bottom there is "Learn more" that goes to iana.org
-- How I checked: I opened example.com on Chrome.
+- How I checked: I opened example.com on Chrome
 
 ## Website 2: https://developer.mozilla.org
 - Navigation menu: It is wrapped in <nav> tag. I saw <nav class="main-nav"> at the top inside <header>. Inside nav there is ul and li for links.
