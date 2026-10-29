@@ -6,4 +6,4 @@ My Personal Webpage: [View Live Website](https://gakuruclaire39-cmd.github.io/iy
 
 ## Article
 
-- [Semantic HTML and Accessibility: Lessons from Building My Portfolio](https://dev.to/gakuruclaire39cmd/title-what-i-learned-fixing-my-html-forms-semantic-html-accessibility-md9)
+- [Semantic HTML and Accessibility: What I learned and fixed](https://dev.to/gakuruclaire39cmd/title-what-i-learned-fixing-my-html-forms-semantic-html-accessibility-md9)
