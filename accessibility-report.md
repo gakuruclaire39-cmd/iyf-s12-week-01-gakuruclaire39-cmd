@@ -32,7 +32,7 @@
 
 ### 4. Languages: lang attribute
 - **Status** PASS
-- **Issue Found:** None. `<html lang="en">` is correctly presented.
+- **Issue Found:** None. `<html lang="en">` is correctly presented
 
  ### 5. Form labels
  - **Status:** N/A - PASS
