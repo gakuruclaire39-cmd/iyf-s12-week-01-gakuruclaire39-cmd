@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claire - About Me</title>
+    <title>Claire Wairimu | Home</title>
+    <style>
+        body{font-family:system-ui,sans-serif;max-width:800px;margin:auto;padding:1rem;line-height:1.6}
+        nav{display:flex;gap:1rem;background:#f4f4f4;padding:0.8rem;border-radius:8px;flex-wrap:wrap}
+        nav a{text-decoration:none;color:#333;padding:0.3rem 0.6rem;border-radius:4px}
+        nav a.active, nav a:hover{background:#111;color:#fff}
+        .hero{background:#111;color:#fff;padding:2rem;border-radius:12px;margin:1.5rem 0}
+        .hero a{color:#111;background:#fff;padding:0.6rem 1.2rem;border-radius:6px;text-decoration:none;font-weight:bold;display:inline-block;margin-top:1rem}
+        .card{border:1px solid #ddd;padding:1rem;border-radius:8px;margin:1rem 0}
+    </style>
 </head>
 <body>
-     <header class="hero">
-        <h1>Claire Wairimu</h1>
-        <p>Web Developer | HTML & Forms Enthusiast.</p>
-    </header>
-    
+    <!-- Home - Claire Wairimu - IYF S12 Week 01 -->
     <nav>
         <a href="index.html" class="active">Home</a>
         <a href="about.html">About</a>
@@ -18,29 +23,25 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <h2>A Photo of Me</h2>
-    <img src="https://placehold.co/300x300" alt="Potrait photo of Claire Wairirmu, web development student" width="300" height="300">
+    <div class="hero">
+        <h1>Hi, I'm Claire Wairimu</h1>
+        <p>From Nairobi. I joined IYF to learn different coding languages and to be able to apply them in real projects.</p>
+        <a href="projects.html">View My Projects</a>
+    </div>
 
-    <main>
-        <h2>Welcome!</h2>
-        <p>Hello! I am learning HTML to build stuctured, accessible web pages. I love creating forms, links, and clean layouts.</p>
-        <p><a href="about.html">Learn more about me</a></p>
-        <p><a href="projects.html">See my projects</a></p>
-    </main>
-    <h2>My Hobbies</h2>
-    <ul>
-        <li>Coding websites</li>
-        <li>Reading tech blogs</li>
-        <li>Gaming</li>
-    </ul>
-    
-    
-    <h2>Favorite Website</h2>
-    <p><a href="https://developer.mozilla.org">MDN Web Docs</a></p>
-    
-    <h2>Contact</h2>
-    <p>Email me at
-        <a href="mailto:gakuruclaire39@gmail.com">gakuruclaire39@gmail.com</a>
-    </p>
+    <h2>What I'm Learning</h2>
+    <div class="card">
+        <h3>Week 01 - HTML & Accessibility</h3>
+        <p>I started with semantic HTML, forms with fieldset and legend, linked labels, and fixing alt text. My contact form now validates email and needs 50 characters for message.</p>
+    </div>
+
+    <div class="card">
+        <h3>Next - CSS & JavaScript</h3>
+        <p>After this 4-page portfolio, I will style it and make it interactive.</p>
+    </div>
+
+    <hr>
+    <p><strong>Live Portfolio:</strong> gakuruclaire39-cmd.github.io/Iyf-s12-week-01-gakuruclaire39-cmd/</p>
+    <p>Find me: <a href="https://github.com/gakuruclaire39-cmd">GitHub</a> | Nairobi, EAT (GMT+3)</p>
 </body>
-  </html>
+    </html>
