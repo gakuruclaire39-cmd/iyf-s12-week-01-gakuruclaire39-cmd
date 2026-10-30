@@ -28,7 +28,7 @@
     - "MDN Web Docs" is descriptive - good.
     - Email link shows email address - acceptable, but improved to be clearer.
 - **How I Improved:**
-- **After:** `<a href="malito:gakuruclaire39@gmail.com">`Email Claire at gakuruclaire39@gmail.com</a>
+- **After:** `<a href="malito:gakuruclaire39@gmail.com">`Email me: gakuruclaire39@gmail.com</a>
 
 ### 4. Languages: lang attribute
 - **Status** PASS
