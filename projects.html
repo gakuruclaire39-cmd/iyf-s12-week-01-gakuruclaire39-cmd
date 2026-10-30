@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claire Wairimu | Projects</title>
+    <title>Projects | Claire Wairimu</title>
     <style>
         body{font-family:system-ui;max-width:800px;margin:auto;padding:1rem;line-height:1.6}
         nav{display:flex;gap:1rem;background:#f4f4f4;padding:0.8rem;border-radius:8px;flex-wrap:wrap}
@@ -14,31 +14,37 @@
     </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html" class="active">Projects</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-
-    <h1>My Projects</h1>
-
-    <div class="project">
-        <img src="https://placehold.co/300x300" alt="Screenshot of About Me page project">
-        <h2>1. About Me Page</h2>
-        <p>This was my first page in Week 01. I learned how to use h1,h2 and alt text so screen readers can understand the image.</p>
-    </div>
-
-    <div class="project">
-        <img src="https://placehold.co/300x300" alt="Screenshot of Contact Form project">
-        <h2>2. Accessible Contact Form</h2>
-        <p>This form was hard at first. I had to fix the labels so they link to inputs,add email type and make the message need at least 50  characters</p>
-    </div>
-
-    <div class="project">
-        <img src="https://placehold.co/300x300" alt="Screenshot of Multi-page Portfolio project">
-        <h2>3. Multi-Page Portfolio</h2>
-        <p>This 4-page portfolio. I joined IYF to learn different coding languages and apply them-this is where i applied HTML, navigation and GitHub pages.</p>
-    </div>
+    <header>
+        <div class="logo">Claire Wairimu</div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active" aria-current="page">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>My Projects</h1>
+            <article>
+                <h2>1. Personal Portfolio Website</h2>
+                <img src="https://placehold.co/300x300" alt="Screenshot placeholder of portfolio home page">
+                <p>Multi-page semantic portfolio built for Week 1. Features header, nav, main, footer, accessible forms and images with alt text.</p>
+            </article>
+            <article>
+                <h2>2. Daily HTML Challenges</h2>
+                <img src="https://placehold.co/300x300" alt="Placeholder for daily challenges collage">
+                <p>Collection of 5 daily challenges covering tags, navigation, contact form, gallery and blog layout.</p>
+            </article>
+            <article>
+                <h2>3. Accessibility Audit Report</h2>
+                <img src="https://placehold.co/300x300" alt="Placeholder for accessibility audit">
+                <p>Documented accessibility issues found and fixed: missing alt text, heading hierarchy, mailto link typo, landmark regions.</p>
+            </article>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Claire Wairimu</p></footer>
 </body>
 </html>
