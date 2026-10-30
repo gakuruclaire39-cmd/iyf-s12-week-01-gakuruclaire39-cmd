@@ -25,6 +25,10 @@ My Personal Webpage: [View Live Website](https://gakuruclaire39-cmd.github.io/iy
 - Accessible forms and images with alt text
 - Responsive design
 
+## How to Run
+1. Clone repo: git clone https://github.com/gakuruclaire39-cmd/iyf-s12-week-01-gakuruclaire39-cmd
+2. Open index.html in browser or use Live Server in VS Code
+
 ## Lessons Learned
 - Importance of semantic HTML for screen readers and SEO
 - How to use devtools to check accessibility
