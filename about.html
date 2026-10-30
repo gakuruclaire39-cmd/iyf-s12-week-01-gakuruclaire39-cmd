@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claire Wairimu | About</title>
+    <title>About | Claire Wairimu</title>
     <style>
         body{font-family:system-ui;max-width:800px;margin:auto;padding:1rem;line-height:1.6}
         nav{display:flex;gap:1rem;background:#f4f4f4;padding:0.8rem;border-radius:8px;flex-wrap:wrap}
@@ -12,31 +12,43 @@
     </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-
-    <h1>About Me</h1>
-    <img src="https://placehold.co/300x300" alt="Portrait photo of Claire Wairimu" width="200">
-
-    <h2>My Story</h2>
-    <p>I'm Claire Wairimu from Nairobi. I joined IYF to learn different coding languages and to be able to apply them in real projects. In Week 01 I started with HTML - learning how to structure pages, make forms accessible, and fix issues like missing labels and alt text. I'm still learning but I enjoy building pages that actually work.</p>
-    
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML Semantic Structure</li>
-        <li>Accessible Forms & Validation</li>
-        <li>Git & GitHub Collaboration</li>
-    </ul>
-
-    <h2>Education / Timeline</h2>
-    <ul>
-        <li><strong>2026 - Present:</strong> Web Development - IYF S12</li>
-        <li><strong>Week 01:</strong> HTML, Forms, Accessibility Audit</li>
-        <li><strong>Next:</strong> CSS & JavaScript</li>
-    </ul>
+    <header>
+        <div class="logo">Claire Wairimu</div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active" aria-current="page">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>About Me</h1>
+            <article>
+                <h2>My Background</h2>
+                <p>I joined IYF to become a full-stack web-developer. I am passionate about web foundations: semantic HTML and accessibility first, then CSS and JavaScript.</p>
+            </article>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 Semantic Elements</li>
+                <li>Accessibility Audit with Lighthouse & WAVE</li>
+                <li>Git, GitHub, GitHub Pages Deployment</li>
+                <li>Chrome DevTools</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education / Timeline</h2>
+            <ol>
+                <li><strong>2026 - Present:</strong> IYF Weekend Academy - Software Development</li>
+                <li><strong>2025:</strong> Completed HTML & CSS Foundations</li>
+                <li><strong>2024:</strong> Community volunteer - teaching basic computer literacy</li>
+            </ol>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Claire Wairimu</p></footer>
 </body>
-  </html>
+</html>
