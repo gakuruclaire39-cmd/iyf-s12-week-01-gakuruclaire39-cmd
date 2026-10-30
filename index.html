@@ -3,45 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claire Wairimu | Home</title>
-    <style>
-        body{font-family:system-ui,sans-serif;max-width:800px;margin:auto;padding:1rem;line-height:1.6}
-        nav{display:flex;gap:1rem;background:#f4f4f4;padding:0.8rem;border-radius:8px;flex-wrap:wrap}
-        nav a{text-decoration:none;color:#333;padding:0.3rem 0.6rem;border-radius:4px}
-        nav a.active, nav a:hover{background:#111;color:#fff}
-        .hero{background:#111;color:#fff;padding:2rem;border-radius:12px;margin:1.5rem 0}
-        .hero a{color:#111;background:#fff;padding:0.6rem 1.2rem;border-radius:6px;text-decoration:none;font-weight:bold;display:inline-block;margin-top:1rem}
-        .card{border:1px solid #ddd;padding:1rem;border-radius:8px;margin:1rem 0}
-    </style>
+    <title>Claire Wairimu - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Home - Claire Wairimu -->
-    <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <header>
+        <div class="logo">Claire Wairimu</div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="hero">
-        <h1>Hi, I'm Claire Wairimu</h1>
-        <p>From Nairobi. I joined IYF to learn different coding languages and to be able to apply them in real projects.</p>
-        <a href="projects.html">View My Projects</a>
-    </div>
+    <main>
+        <section class="hero">
+            <h1>Hi, I'm Claire Wairimu Gakuru</h1>
+            <p>Aspiring Web Developer at IYF - Building accessible web experiences</p>
+            <figure>
+                <img src="https://placehold.co/300x300" alt="Portrait photo of Claire Wairimu, web developer">
+                <figcaption>My Profile Photo</figcaption>
+            </figure>
+            <a href="projects.html">View My Work</a>
+            <a href="about.html">Learn More About Me</a>
+        </section>
 
-    <h2>What I'm Learning</h2>
-    <div class="card">
-        <h3>Week 01 - HTML & Accessibility</h3>
-        <p>I started with semantic HTML, forms with fieldset and legend, linked labels, and fixing alt text. My contact form now validates email and needs 50 characters for message.</p>
-    </div>
+        <section>
+            <h2>Introduction</h2>
+            <p>I am a student at IYF Weekend Academy. I love building websites that are semantic, accessible and easy to use for everyone including screen reader users.</p>
+            <p>My favorite learning resource is <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a>.</p>
+        </section>
 
-    <div class="card">
-        <h3>Next - CSS & JavaScript</h3>
-        <p>After this 4-page portfolio, I will style it and make it interactive.</p>
-    </div>
+        <section>
+            <h2>My Hobbies & Interests</h2>
+            <ul>
+                <li>Coding and exploring new JavaScript features</li>
+                <li>Reading tech articles and documentation</li>
+                <li>Community service and mentoring beginners</li>
+            </ul>
+        </section>
 
-    <hr>
-    <p><strong>Live Portfolio:</strong> gakuruclaire39-cmd.github.io/Iyf-s12-week-01-gakuruclaire39-cmd/</p>
-    <p>Find me: <a href="https://github.com/gakuruclaire39-cmd">GitHub</a> | Nairobi, EAT (GMT+3)</p>
+        <section>
+            <h2>Contact</h2>
+            <p>Email me: <a href="mailto:gakuruclaire39@gmail.com">gakuruclaire39@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Claire Wairimu</p>
+        <p>Location: Nairobi, Kenya - Timezone: EAT (GMT+3)</p>
+    </footer>
 </body>
-    </html>
+</html>
+ 
